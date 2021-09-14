@@ -1,0 +1,455 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+nav{
+    border-bottom: solid gray 1px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar .nav-item a{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: white;
+    transition: color 0.25s;
+}
+.navbar .nav-item a:hover{
+    color: #f25454 !important;
+}
+
+.slid1::after{
+    content: "We build great brands.";
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    padding: 0 37%;
+    width: 100%;
+    height: 100%;
+}
+
+.slid2::after{
+    content: "Focused on strategy.";
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    padding: 0 37%;
+    width: 100%;
+    height: 100%;
+}
+.slid3::after{
+    content: "Advanced in digital works.";
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    padding: 0 37%;
+    width: 100%;
+    height: 100%;
+}
+.carousel-indicators li {
+    margin-bottom: 10%;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+.carousel-item h1 {
+    margin: 0;
+  color: white;
+}
+.h-10{
+    height: 50px;
+    width: 60px;
+}
+#carouselExampleCaptions{
+    height: 100vh;
+}
+.carousel-control-next span{
+        font-size: 20px;
+        z-index: 1;
+}
+.carousel-control-next {
+    background-color: transparent;
+    border-bottom-right-radius: 5px;
+    top: 50%;
+    left: 0%;
+    border: 1px solid white;
+}
+.carousel-control-next:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: white;    
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    transition: all 0.5s;
+}
+.carousel-control-next:hover span{
+    color: #f25454;
+    font-size: 20px;
+}
+.carousel-control-next:hover::after{
+    right: 0%;
+}
+/* =============== */
+
+.carousel-control-prev span{
+    font-size: 20px;
+    z-index: 1;
+}
+.carousel-control-prev {
+    background-color: transparent;
+    border-top-right-radius: 5px;
+    top: 45%;
+    left: 0%;
+    border: 1px solid white;
+}
+.carousel-control-next {
+    background-color: transparent;
+    border-bottom-right-radius: 5px;
+    top: 50%;
+    left: 0%;
+}
+.carousel-control-prev:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: white;    
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    transition: all 0.5s;
+}
+.carousel-control-prev:hover span{
+    color: #f25454;
+    font-size: 20px;
+}
+.carousel-control-prev:hover::after{
+    right: 0%;
+}
+/* ========================================================sec2=============================================== */
+.bottom h3{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.08);
+}
+.top h2{
+    font-size: 38px;
+}
+.top{
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    color: black;
+    font-size: 38px;
+}
+.top h2:after{
+    content: "";
+    height: 1px;
+    width: 5%;
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    left: 48%;
+    transition: all 0.5s;
+}
+.top h2:hover::after{
+    width: 10%;
+    left: 45.5%;
+}
+.gray{
+    color: #999999;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-14{
+    font-size: 14;
+}
+
+.w-62{
+    width: 62%;
+}
+.progress{
+    height: 5px;
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+.progress-bar{
+    background-color: #f25454;
+}
+.red-overlay{
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: #f25454;
+    opacity: 0;
+    transition: all 0.6s;
+}
+.team-member img,h5{
+    transition: all 0.6s;
+}
+.team-member:hover .red-overlay{
+    opacity: 0.5;
+}
+.team-member:hover img{
+    transform: scale(1.1);
+}
+.team-member:hover h5{
+    color: #f25454;
+}
+.sec3 button{
+    padding: 8 20px;
+    border-radius: 5px;
+    background-color: #f25454;
+    border: none;
+}
+.sec3 .any-ideas{
+    justify-content: space-around;
+}
+.any-ideas h2{
+    color: #282828;
+    font-size: 32px;
+    font-weight: 400;
+}
+/* =======================================================================================sec4===================================================== */
+.sec4{
+    background-color: whitesmoke;
+}
+.sec4 i{
+    font-size: 22px;
+    color: #f25454;
+}
+.sec4  .services p{
+    font-size: 14px;
+    color: #666666;
+}
+.services:hover h5{
+    color: #f25454;
+}
+.services{
+    margin-bottom: 16px;
+}
+/* ==========================================================================================sec5============================================================ */
+
+.sec5 button{ 
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+.sec5 button img{
+    width: 100%;
+}
+.client1::after{
+    content: " Morbi viverra ultrices magna vel egestas. Suspendisse rutrum, lacus nec sodales gravida, augue ante sollicitudin sem. ";
+    position: absolute;
+    top: 130%;
+    left: 2%;
+    color: black;
+    opacity: 0;
+}
+.client1:active,.client1:focus::after{
+    opacity: 1;
+}
+.client2::after{
+    content: " Morbi viverra ultrices magna vel egestas. Suspendisse rutrum, lacus nec sodales gravida, augue ante sollicitudin sem. ";
+    position: absolute;
+    top: 130%;
+    left: 2%;
+    color: black;
+    opacity: 0;
+}
+.client2:active,.client2:focus::after{
+    opacity: 1;
+}
+.client3::after{
+    content: " Morbi viverra ultrices magna vel egestas. Suspendisse rutrum, lacus nec sodales gravida, augue ante sollicitudin sem. ";
+    position: absolute;
+    top: 130%;
+    left: 2%;
+    color: black;
+    opacity: 0;
+}
+.client3:active,.client3:focus::after{
+    opacity: 1;
+}
+.client4::after{
+    content: " Morbi viverra ultrices magna vel egestas. Suspendisse rutrum, lacus nec sodales gravida, augue ante sollicitudin sem. ";
+    position: absolute;
+    top: 130%;
+    left: 2%;
+    color: black;
+    opacity: 0;
+}
+.client4:active,.client4:focus::after{
+    opacity: 1;
+}
+.client5::after{
+    content: " Morbi viverra ultrices magna vel egestas. Suspendisse rutrum, lacus nec sodales gravida, augue ante sollicitudin sem. ";
+    position: absolute;
+    top: 130%;
+    left: 2%;
+    color: black;
+    opacity: 0;
+}
+.client5:active,.client5:focus::after{
+    opacity: 1;
+}
+.client6::after{
+    content: " Morbi viverra ultrices magna vel egestas. Suspendisse rutrum, lacus nec sodales gravida, augue ante sollicitudin sem. ";
+    position: absolute;
+    top: 130%;
+    left: 2%;
+    color: black;
+    opacity: 0;
+}
+.client6:active,.client6:focus::after{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/* =========================================================sec6==================================================== */
+.sec6 .lhs i{
+    font-size: 40px;
+    color: #f25454;
+}
+.form-control:focus {
+    border-color: #FF0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 5px rgba(242, 84, 84, 0.6);
+}
+.sec6 button{
+    padding: 18 30px;
+    border-radius: 5px;
+    background-color: #f25454;
+    border: none;
+}
+.brdr{
+    background-color: #e7e7e7;
+    height: 1px;
+    width: 100%;
+}
+.sec6 .container .contact-info:hover h6{
+    color: #f25454;
+}
+.lh-14{
+    line-height: 14px;
+}
+.sec6 a{
+    text-decoration: none;
+    color: black;
+}
+.sec6 a:hover{
+    color: #f25454;
+    text-decoration: none;
+}
+footer .btn{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    transition: all 0.5s;
+}
+footer .btn:hover{
+    background-color: transparent;
+    border-color: #f25454;
+    color: #f25454;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: #f25454;
+    text-decoration: none;
+}
+footer .final ul li{
+    list-style-type: none;
+}
+.final ul li a i{
+    font-size: 18px;
+}
+.final ul li a:hover {
+    color: #f25454;
+}
+.final a:hover{
+    color: #f25454;
+}
+.bottom-footer {
+    justify-content: space-between;
+}
+.header-style{
+    top: 20%;
+    left: 0%;
+    background-color: black;
+    z-index: 89;
+    color: white;
+    padding:15 10px;
+    font-size: 14px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.header-style:hover{
+    text-decoration: none;
+    color: white;
+}
+.top-footer{
+    /* background-image: url(../images/map.png); */
+    background-size: contain;
+    position: relative;
+    background-image: linear-gradient( rgba(34, 34, 34, 0.9), rgba(34, 34, 34, 0.9)) ,url(../images/map.png);
+}
+/* .top-footer-overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgba(34, 34, 34, 0.7);
+} */
+.final{
+    background-color: #1a1a1a;
+}
+.home-button {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: -30px;
+    width: 50px;
+    height: 50px;
+    margin:  auto;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.5);
+}
+@media (max-width: 767.98px) {
+    .sec1,.sec2,.sec3,.sec4,.sec5,.sec6,footer{
+        width: 100vw;
+    }
+  }
